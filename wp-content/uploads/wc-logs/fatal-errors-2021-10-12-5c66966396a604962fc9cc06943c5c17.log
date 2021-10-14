@@ -1,0 +1,8 @@
+2021-10-12T22:16:39+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Error::get_data() in C:\xampp\htdocs\papopapeleria\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\RestApi.php:64
+Stack trace:
+#0 C:\xampp\htdocs\papopapeleria\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(349): Automattic\WooCommerce\Blocks\RestApi->get_routes_from_namespace('wc/store')
+#1 C:\xampp\htdocs\papopapeleria\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AllProducts.php(23): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_data(Array)
+#2 C:\xampp\htdocs\papopapeleria\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(287): Automattic\WooCommerce\Blocks\BlockTypes\AllProducts->enqueue_data(Array)
+#3 C:\xampp\htdocs\papopapeleria\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php(84): Automattic\WooCommerce\Blocks\BlockTypes\AbstractBlock->enqueue_assets(Array)
+#4 C:\xampp\h en C:\xampp\htdocs\papopapeleria\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\RestApi.php en la línea 64
+
